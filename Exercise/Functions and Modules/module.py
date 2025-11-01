@@ -23,3 +23,6 @@ print(area)
 import datetime as dt
 t=dt.time(8,45,40)
 print(t)
+
+import recursion
+print(recursion.fact(5))
