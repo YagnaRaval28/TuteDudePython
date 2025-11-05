@@ -1,0 +1,1 @@
+{'student1': {'name': 'John', 'rollNo': 101, 'percent': 88}, 'student2': {'name': 'Van dijk', 'rollNo': 102, 'percent': 78}, 'student3': {'name': 'Ronaldo', 'rollNo': 103, 'percent': 94}}
