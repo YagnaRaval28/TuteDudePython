@@ -11,7 +11,7 @@ match_object=re.search("[0-9][0-9][0-9]","House no-251/A")
 print(match_object)
 '''
 
-match_object=re.search("[0-9].[0-9][0-9]",message)
+match_object=re.findall("[0-9].[0-9][0-9]",message)
 print(match_object)
 
 match_object=re.search("[0-9].[0-9]","House no-251/A")
