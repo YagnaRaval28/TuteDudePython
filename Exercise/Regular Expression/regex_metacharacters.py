@@ -18,3 +18,18 @@ match_object=re.search("[0-9].[0-9]","House no-251/A")
 print(match_object)
 
 # . matches any character except new line character (\n)
+
+# ^
+s1="Python is a programming language"
+pat=r"[a-z]{7}"
+match_object=re.search(pat,s1)
+print(match_object)
+
+
+# $ - ends with the string
+
+# groups() -
+emails="abc_123@example.com"
+pat=r"(com|edu)"
+match_object=re.search(pat,emails)
+print(match_object)
